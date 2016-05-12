@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+		<meta name="description" content="Chrome extension to show live cricket score board">
+		<meta name="author" content="Abhilekh Singh">
+		
+		<title>Chrome Extension with Twitter Bootstrap 3.0</title>
+		
+		<!-- Scripts -->
+		<script src="js/jquery-2.0.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<script src="live-score.js" ></script>
+		<script src="fixtures.js" ></script>
+
+
+		<!-- Cascading Style Sheets -->
+		<link rel="stylesheet" type="text/css" href="fix.css">	
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/custom.css" rel="stylesheet" media="screen">	
+		
+	</head>
+	
+	<body>
+
+		<div class="container">     
+		  <ul class="nav nav-tabs navbar-fixed-top" role="tablist">
+		    <li class="active custom-tab">
+				<a data-toggle="tab" href="#live-score">Live Scores</a>
+			</li>
+			<li class="custom-tab">
+				<a data-toggle="tab" href="#results">Results</a>
+			</li>   
+			<li class="custom-tab">
+				<a data-toggle="tab" href="#fixtures">Fixtures</a>
+			</li>       
+		  </ul>
+
+		  <div class="tab-content">
+    		<div id="live-score" class="tab-pane fade in active" >
+				<div id="live-score-status-table" class="">
+				</div>
+			</div>
+
+			<div id="results" class="tab-pane fade" >
+				<div id="results-status-table" class="">
+				</div>
+			</div>
+
+			<div id="fixtures" class="tab-pane fade" >
+				<div id="fixtures-status-table" class="">
+				</div>
+			</div>
+  		  </div>
+		</div>
+		
+	</body>
+</html>

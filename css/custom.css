@@ -1,0 +1,147 @@
+/**
+ * Chrome Extension Twitter Bootstrap 3 Template
+ * Custom CSS
+ *	
+ */
+
+body, .container {			/* Change width and height to own preferences */
+	width: 550px;
+	overflow-x: hidden;
+	padding: 0;
+}
+
+
+.navbar { 
+	margin-bottom: 0px; 
+	border: none;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
+
+.btn:focus,.btn:active {
+    outline: none !important;
+}
+
+a {
+	color: black;
+}
+
+a:visited, a:hover, a:active , a:focus{
+    outline: none !important;
+    color: black;
+}
+
+
+.nav>li>a {
+    text-align: center;
+    border-right: 1px solid #dedede;
+    border-left: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #f0f0f0;
+    display: table-cell;
+    border-top-left-radius: 0;
+     border-top-right-radius: 0;
+}
+
+.custom-tab {
+    text-align: center;
+    border-right: 1px solid #dedede;
+    border-left: 0px;
+    color: #999;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #f0f0f0;
+    display: table-cell;
+}
+
+.tab-content {
+    margin-top: 45px;
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    border-top: solid;
+    border-top-color: #3c8cc8;
+    width: 100%;
+    display: inline-block;
+}
+
+.match-description {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.match-description .match-detail {
+    color: #333;
+    font-size: 15px;
+    font-family: Roboto,Arial;
+    margin: 0 0 0 0;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.match-description .match-status {
+    color: #999;
+    font-size: 13px;
+    font-family: Roboto,Arial;
+    margin: 0 0 0 0;
+    display: block;
+    padding-bottom: 5px;
+}
+
+
+.match-description .match-score {
+    color: #999;
+    font-size: 13px;
+    font-family: Roboto,Arial;
+    margin: 0 0 0 0;
+    display: block;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.match-description .detail-link {
+	color: #3c8cc8;
+	padding-top: 20px;
+    float: right !important;
+}
+
+.schedule-match-description {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.schedule-match-description .match-detail {
+    color: #333;
+    font-size: 15px;
+    font-family: Roboto,Arial;
+    margin: 0 0 0 0;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.schedule-match-description .match-status {
+    color: #999;
+    font-size: 13px;
+    font-family: Roboto,Arial;
+    margin: 0 0 0 0;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.schedule-match-description .match-time {
+    color: #999;
+    font-size: 13px;
+    font-family: Roboto,Arial;
+    margin: 0 0 0 0;
+    display: block;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
