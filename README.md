@@ -1,5 +1,5 @@
 # Chrome extension to show live cricket score board 
-#### https://chrome.google.com/webstore/detail/live-cricket-scoreboard/fgpmbmjmcdioelmfkgcfoimlibnnedpa
+###### Link - https://chrome.google.com/webstore/detail/live-cricket-scoreboard/fgpmbmjmcdioelmfkgcfoimlibnnedpa
 ## Jump to Section
 
 * [Getting Started](#getting-started)
